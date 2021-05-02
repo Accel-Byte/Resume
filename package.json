@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume of Cheris Patel",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "author": "Acce_l",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.1.2"
+  }
+}
