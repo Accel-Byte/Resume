@@ -13,7 +13,11 @@ module.exports = {
       '75%': '75%',
       16: '4rem',
     },
+    
     extend: {
+      inset: {
+        '-30%': '-30%',
+      },
       colors: {
         primary: '#67C58A',
         secondary: {
@@ -23,6 +27,9 @@ module.exports = {
         'custom-white-title': '#d9e1e8',
         'custom-white-text': '#a8afc4',
         'card-background': '#363c52',
+        'related-work-orange': '#EB5027',
+        'related-work-white': '#fff',
+        'related-work-dark': '#505050',
       },
       fontFamily: {
         raleway: ['Raleway', 'Helvetica', 'Arial', 'sans-serif'],

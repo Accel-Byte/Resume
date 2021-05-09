@@ -42,4 +42,12 @@
         mask-size: 100%;
     }
 
+    .hover-trigger .hover-target {
+        display: none;
+    }
+    
+    .hover-trigger:hover .hover-target {
+        display: inline;
+        color: #d9e1e8;
+    }
 }
