@@ -34,6 +34,7 @@ module.exports = {
         'related-work-darkBlue': '#1d364a',
         'related-work-gray': '#56636d',
         'related-work-yellow': '#f1cf43',
+        'related-work-purple': '#925FDA',
       },
       fontFamily: {
         raleway: ['Raleway', 'Helvetica', 'Arial', 'sans-serif'],
