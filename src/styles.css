@@ -11,6 +11,9 @@
 }
 
 @layer utilities {
+    html{
+        scroll-behavior: smooth;
+    }
     .background {
         background: url('images/stars3.webp'), url('images/forest.webp');
         background-repeat: no-repeat;
