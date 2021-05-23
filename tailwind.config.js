@@ -40,7 +40,8 @@ module.exports = {
       },
       fontFamily: {
         raleway: ['Raleway', 'Helvetica', 'Arial', 'sans-serif'],
-        thailand: ['Gloss And Bloom'],
+        operatormono: ['Operator Mono', 'Helvetica', 'Arial', 'sans-serif'],
+        thailand: ['Gloss And Bloom', 'Helvetica', 'Arial', 'sans-serif'],
       },
       backgroundImage: (theme) => ({
         aboutMeImage: "url('images/about-me-font.png')",

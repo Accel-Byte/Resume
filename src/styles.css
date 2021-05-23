@@ -8,6 +8,10 @@
         font-family: 'Gloss And Bloom';
         src: url('fonts/Gloss_And_Bloom.ttf') format('truetype');
     }
+    @font-face {
+        font-family: 'Operator Mono';
+        src: url('fonts/OperatorMono-MediumItalic.otf') format('truetype');
+    }
 }
 
 @layer utilities {
