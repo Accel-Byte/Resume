@@ -1,6 +1,6 @@
 # Responsive-Resume
 
-> Responsive Resume / CV template built with Tailwind CSS &nbsp; [[Demo]](https://hungry-dijkstra-754ae2.netlify.app/).
+> Responsive Resume / CV template built with Tailwind CSS &nbsp; [[Demo]](https://accel-byte.github.io/Resume/).
 
 ## Getting up and running
 
