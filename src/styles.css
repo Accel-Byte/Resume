@@ -19,7 +19,7 @@
         scroll-behavior: smooth;
     }
     .background {
-        background: url('images/stars3.webp'), url('images/forest.webp');
+        background: url('Images/stars3.webp'), url('Images/forest.webp');
         background-repeat: no-repeat;
         background-position: top center, bottom center;
         background-size: 100%;

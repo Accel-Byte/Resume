@@ -44,7 +44,7 @@ module.exports = {
         thailand: ['Gloss And Bloom', 'Helvetica', 'Arial', 'sans-serif'],
       },
       backgroundImage: (theme) => ({
-        aboutMeImage: "url('images/about-me-font.png')",
+        aboutMeImage: "url('Images/about-me-font.png')",
       }),
       animation: {
         slideIn: 'slideIn 500ms ease forwards',
