@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: "Gloss And Bloom";
+    src: url("./assets/fonts/Gloss_And_Bloom.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Operator Mono";
+    src: url("./assets/fonts/OperatorMono-MediumItalic.otf") format("truetype");
+  }
+}
+
+@layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+  .background {
+    background: url("./assets/Images/stars3.webp"),
+      url("./assets/Images/forest.webp");
+    background-repeat: no-repeat;
+    background-position: top center, bottom center;
+    background-size: 100%;
+    background-color: #2b2e3e;
+    margin: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  }
+
+  .mask-img-container {
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.75));
+    -webkit-filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.75));
+    -moz-filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.75));
+    -ms-filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.75));
+    -o-filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.75));
+  }
+
+  .mask-img {
+    mask-image: url("/images/mask-image.png");
+    mask-position: top right;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+  }
+
+  .hover-trigger .hover-target {
+    display: none;
+  }
+
+  .hover-trigger:hover .hover-target {
+    display: inline;
+    color: #d9e1e8;
+  }
+
+  .font-thailand {
+    font-family: Gloss And Bloom, Helvetica, Arial, sans-serif;
+  }
+  .font-raleway {
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+  }
+  .shadow-img-shadow {
+    --tw-shadow: 0 10px 36px -16px #000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .shadow-card-shadow {
+    --tw-shadow: 0 42px 0 -30px #67c58a, 0 10px 36px -16px #000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  .text-custom-white-title {
+    --tw-text-opacity: 1;
+    color: rgba(217, 225, 232, var(--tw-text-opacity));
+  }
+
+  .text-custom-white-text {
+    --tw-text-opacity: 1;
+    color: rgba(168, 175, 196, var(--tw-text-opacity));
+  }
+  .hover\:text-custom-white-title:hover {
+    --tw-text-opacity: 1;
+    color: rgba(217, 225, 232, var(--tw-text-opacity));
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(96px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slideIn {
+    animation: slideIn 500ms ease forwards;
+  }
+
+  .bg-custom-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(43, 46, 62, var(--tw-bg-opacity));
+  }
+
+  .bg-aboutMeImage {
+    background-image: url("./assets/Images/about-me-font.png");
+  }
+  .bg-card-background {
+    --tw-bg-opacity: 1;
+    background-color: rgba(54, 60, 82, var(--tw-bg-opacity));
+  }
+  .bg-related-work-orange {
+    --tw-bg-opacity: 1;
+    background-color: rgba(235, 80, 39, var(--tw-bg-opacity));
+  }
+
+  .bg-related-work-white {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  }
+
+  .bg-related-work-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(80, 80, 80, var(--tw-bg-opacity));
+  }
+
+  .bg-related-work-green {
+    --tw-bg-opacity: 1;
+    background-color: rgba(102, 179, 102, var(--tw-bg-opacity));
+  }
+
+  .bg-related-work-gray {
+    --tw-bg-opacity: 1;
+    background-color: rgba(86, 99, 109, var(--tw-bg-opacity));
+  }
+
+  .bg-related-work-yellow {
+    --tw-bg-opacity: 1;
+    background-color: rgba(241, 207, 67, var(--tw-bg-opacity));
+  }
+
+  .bg-related-work-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(146, 95, 218, var(--tw-bg-opacity));
+  }
+
+  .bg-related-work-teal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 181, 173, var(--tw-bg-opacity));
+  }
+  .hover\:text-primary:hover {
+    --tw-text-opacity: 1;
+    color: rgba(103, 197, 138, var(--tw-text-opacity));
+  }
+}
