@@ -25,6 +25,7 @@ export const aboutMe = {
   description: `Hi, I'm Cheris Patel, an excitable fullstack web developer working from India.
     I'm very fascinated about coding. For the past 10 years, Apart from web development
     I'm very interested in Astronomy and Gaming.`,
+  resume:"https://drive.google.com/file/d/1y_DDYdXE2Fgns1hw61XPVGxPtUDU8s91/view?usp=drive_link",
   socials: [
     { name: "GitHub", icon: FaGithub, link: "https://github.com/Accel-Byte" },
     {
@@ -33,7 +34,7 @@ export const aboutMe = {
       link: "https://www.linkedin.com/in/cheris-patel-6702b2185/",
     },
     { name: "Mail", icon: FaEnvelope, link: "mailto:patelcheris13.com" },
-    { name: "YouTube", icon: FaYoutube, link: "https://www.linkedin.com/" },
+    { name: "YouTube", icon: FaYoutube, link: "https://www.youtube.com/@PrestoCS" },
     {
       name: "LeetCode",
       icon: SiLeetcode,

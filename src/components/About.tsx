@@ -25,7 +25,7 @@ const AboutMe: React.FC = () => {
                     className="group relative hover:text-primary hover-trigger"
                   >
                     <a
-                      href="https://github.com/Accel-Byte"
+                      href={social.link}
                       target="_blank"
                       className="hover:text-custom-white-title transform hover:scale-125 rounded-full flex items-center justify-center text-custom-white-title hover:text-primary transition-colors duration-300"
                     >
@@ -42,7 +42,8 @@ const AboutMe: React.FC = () => {
             {/* Contact Button */}
             <div className="mt-8">
               <a
-                href="#contact"
+                href={aboutMe.resume}
+                target="_blank"
                 className="inline-block bg-related-work-orange text-white font-medium py-3 px-8 rounded-md hover:opacity-90 transition-colors duration-300"
               >
                 Resume

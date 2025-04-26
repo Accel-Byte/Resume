@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/About";
@@ -7,11 +7,13 @@ import Expertise from "./components/Expertise/Expertise";
 import WorkExperience from "./components/Projects/WorkExperience";
 import "./App.css";
 import Education from "./components/Education/Education";
+import { ScrollToHash } from "./components/ScrollToHash";
 
 function App() {
   return (
     <Router>
       <div className="background font-raleway overflow-x-hidden">
+        <ScrollToHash />
         <Navbar />
         <Routes>
           <Route
