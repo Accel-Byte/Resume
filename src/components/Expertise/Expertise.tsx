@@ -29,11 +29,10 @@ const Card: React.FC<CardProps> = ({ title, icons, points, image }) => {
       )}
 
       <div>
-        <h3 className="text-4xl text-custom-white-title mb-10">{title}</h3>
+        <h3 className="font-semibold text-3xl lg:text-4xl text-custom-white-title mb-8 mb-10">{title}</h3>
 
-        <div className="flex flex-wrap gap-8 mb-12">
+        <div className="flex flex-wrap gap-4 lg:gap-8 mb-8 lg:mb-10">
           {icons.map(({ name, icon: Icon, colorClass }, index) => {
-            console.log(name);
             return (
               <div
                 key={index}
@@ -50,9 +49,9 @@ const Card: React.FC<CardProps> = ({ title, icons, points, image }) => {
           })}
         </div>
 
-        <div className="space-y-6 text-custom-white-text">
+        <div className="space-y-2 lg:space-y-6 text-custom-white-text">
           {points.map((point, index) => (
-            <div key={index} className="flex items-center gap-2">
+            <div key={index} className="flex items-center gap-1">
               <span className="text-related-work-orange text-xl">-</span>
               <p>{point}</p>
             </div>

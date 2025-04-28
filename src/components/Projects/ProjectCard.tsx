@@ -66,7 +66,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <div className="flex flex-col h-full">
       <div className="flex-grow">
         <div className="flex items-start justify-between">
-          <h2 className="text-custom-white-title font-semibold text-sm md:text-l lg:text-xl cursor-pointer hover:text-primary">
+          <h2 className="text-custom-white-title font-semibold text-lg md:text-lg lg:text-xl cursor-pointer hover:text-primary">
             {title}
           </h2>
           {link && (

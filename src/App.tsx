@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import AboutMe from "./components/About";
 import Projects from "./components/Projects/Projects";
 import Expertise from "./components/Expertise/Expertise";
-import WorkExperience from "./components/Projects/WorkExperience";
+import WorkExperience from "./components/Experience/WorkExperience";
 import "./App.css";
 import Education from "./components/Education/Education";
 import { ScrollToHash } from "./components/ScrollToHash";

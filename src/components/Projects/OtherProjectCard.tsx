@@ -23,7 +23,7 @@ const OtherProjectCard: React.FC<OtherProjectCardProps> = ({
         }}
       >
         <div className="flex items-start justify-between">
-          <h2 className="text-custom-white-title pb-3 font-bold text-xl cursor-pointer hover:text-primary">
+          <h2 className="text-custom-white-title pb-3 font-bold text-lg md:text-lg lg:text-xl cursor-pointer hover:text-primary">
             {title}
           </h2>
           {link && (

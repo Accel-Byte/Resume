@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceCard from "../ExperienceCard";
+import ExperienceCard from "./ExperienceCard";
 import { workExperiences } from "../../config/work";
 
 const WorkExperience: React.FC = () => {
