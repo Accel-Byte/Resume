@@ -29,7 +29,7 @@ const Card: React.FC<CardProps> = ({ title, icons, points, image }) => {
       )}
 
       <div>
-        <h3 className="font-semibold text-3xl lg:text-4xl text-custom-white-title mb-8 mb-10">{title}</h3>
+        <h3 className="font-semibold text-3xl lg:text-4xl text-custom-white-title mb-10">{title}</h3>
 
         <div className="flex flex-wrap gap-4 lg:gap-8 mb-8 lg:mb-10">
           {icons.map(({ name, icon: Icon, colorClass }, index) => {
