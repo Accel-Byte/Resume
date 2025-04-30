@@ -1,7 +1,3 @@
-Thanks! I've updated the **Customization** and **Folder Structure** sections to reflect that customization happens through **TypeScript files in the `config/` directory**. Here's the revised SEO-friendly README:
-
----
-
 # 🚀 Responsive-Resume · Reactfolio
 
 **Reactfolio** is a modern, minimal, and fully responsive personal portfolio & resume template built with **React** and **Tailwind CSS**. It’s designed to help developers, designers, and tech professionals showcase their projects, skills, and experience in a clean, professional, and highly customizable layout.
@@ -44,8 +40,18 @@ npm install
 # Or with Yarn
 yarn install
 ```
+
 ---
 
+### Run the Development Server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+---
 
 ## 🖼️ Showcase
 
@@ -79,17 +85,6 @@ Take a look at the different sections of the template:
 
 ![Certificates](https://github.com/Accel-Byte/Resume/blob/main/src/assets/Images/showcase/certificates.png?raw=true)
 
-
----
-
-### Run the Development Server
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
 ---
 
 ## 🛠️ Customization
@@ -112,8 +107,7 @@ Just open these files and update the values — no need to touch any component l
 ## 📁 Folder Structure
 
 ```
-Responsive-Resume/
-├── public/             # Static assets
+Resume/
 ├── src/                # Main source code
 │   ├── components/     # Reusable React components
 │   └── config/         # Content config in TypeScript
